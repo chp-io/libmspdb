@@ -1,3 +1,22 @@
+libmspdb (0.50.3~focal1) focal; urgency=medium
+
+  [ Christopher Pelloux ]
+  * Fix build error due to missing headers
+  * CI: Add clang-format check and upload artifacts
+  * cmake: Add a format target to clang-format
+  * CI: Target debug explicitly and minor cleanup
+  * CI: Upload release assets on git tag versioning
+
+  [ Jacob Hartman ]
+  * Update to README
+
+  [ Christopher Pelloux ]
+  * CI: Push version-less artifacts to GH releases
+  * Readme: Instructions for pre-built debian packages
+  * Debian package maintenance
+
+ -- Christopher Pelloux <git@chp.io>  Mon, 19 Dec 2022 08:10:38 -0500
+
 libmspdb (0.50.1~focal1) focal; urgency=medium
 
   * Enable link time optimizations

@@ -10,12 +10,11 @@
 
 ### Install the latest release
 
-Pre-built debian packages can be downloaded and installed from the latest [libmspdb.zip](https://github.com/IntroVirt/libmspdb/releases/latest/download/libmspdb.zip) release. For example, with:
+libmspdb can be installed from prebuilt packages using the PPA for Ubuntu bionic and focal:
 ```
-mkdir libmspdb_pkg && cd libmspdb_pkg
-wget https://github.com/IntroVirt/libmspdb/releases/latest/download/libmspdb.zip
-unzip libmspdb.zip
-sudo apt install ./*.deb
+sudo add-apt-repository ppa:chpio/introvirt
+sudo apt-get update
+sudo apt-get install libmspdb-dev
 ```
 
 ## Build and install from source

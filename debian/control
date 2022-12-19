@@ -1,16 +1,16 @@
 Source: libmspdb
 Section: devel
 Priority: optional
-Maintainer: Stephen Pape <srpape@gmail.com>
+Maintainer: Christopher Pelloux <git@chp.io>
 Build-Depends: cmake,
                libcurl4-openssl-dev,
                libboost-dev,
                debhelper (>= 8.9.7),
                linux-libc-dev (>= 2.6.27) [i386]
 Standards-Version: 4.4.0
-Homepage: https://github.com/srpape/libmspdb
-Vcs-Browser: https://github.com/srpape/libmspdb
-Vcs-Git: https://github.com/srpape/libmspdb.git
+Homepage: https://github.com/introvirt/libmspdb
+Vcs-Browser: https://github.com/introvirt/libmspdb
+Vcs-Git: https://github.com/introvirt/libmspdb.git
 
 Package: libmspdb-dev
 Section: libdevel
